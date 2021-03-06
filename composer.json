@@ -1,0 +1,21 @@
+{
+    "name": "vaultke/crypto",
+    "description": "Cryptographic functionalities",
+    "keywords": ["api", "microservices", "library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ananda Douglas",
+            "email": "douglasdaggs@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "vaultke\\crypto\\": "src/"
+        }
+    }
+}
